@@ -36,9 +36,18 @@
               <li><a href="{% url 'index_home_page' %}">Bosh sahifa</a></li>
               <li><a href="#">Biz haqimizda</a></li>
               <li><a href="{% url 'contact_page' %}">Biz bilan aloqa</a></li>
+                {% if user.is_authenticated and user.is_superuser %}
+                <li><a href="{% url 'admin_page' %}">Admin sahifasi</a></li>
+                {% endif %}
             </ul>
           </div>
           <div class="header_top_right">
+              {% if request.user.is_authenticated %}
+                  <p><a href="{% url 'logout' %}" style="color:palegreen">Logout</a> </p>
+              <p><a href="{% url 'user_profile' %}" style="color:pink">My profile</a></p>
+              {% else %}
+              <p><a href="{% url 'login' %}" style="color:pink">Saytga kirish</a></p>
+              {% endif %}
             <p>{% now 'js F Y H:i' %}</p>
           </div>
         </div>
@@ -74,6 +83,12 @@
             <li><a href="{% url 'sport_news_page' %}">Sport</a></li>
           <li><a href="{% url 'contact_page' %}">Biz bilan aloqa</a></li>
 {#          <li><a href="pages/404.html">404 Page</a></li>#}
+            <li>
+                <form method="get" action="{% url 'search_results' %}" class="nav navbar-nav main_nav">
+                    <input type="search" name="q" placeholder="Qidiruv..." class="form-control">
+                </form>
+            </li>
+
         </ul>
       </div>
     </nav>

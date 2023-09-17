@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-16 15:36+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: .\news_project\settings.py:123
+msgid "Uzbek"
+msgstr ""
+
+#: .\news_project\settings.py:124
+msgid "English"
+msgstr ""
+
+#: .\news_project\settings.py:125
+msgid "Russian"
+msgstr ""
+
+#: .\templates\news\index.html:88
+msgid " Bosh Sahifa "
+msgstr "Главная страница"
+
+#: .\templates\news\index.html:108
+msgid "So'nggi yangiliklar"
+msgstr "Последные новости"
+
+#: .\templates\news\index.html:132
+msgid "Mahalliy"
+msgstr "Локальные"
+
+#: .\templates\news\index.html:181
+msgid "Xorij"
+msgstr "Зарубежные"
+
+#: .\templates\news\index.html:226
+msgid "Texnologiya"
+msgstr "Технологические"
+
+#: .\templates\news\index.html:271
+msgid "Rasmlar"
+msgstr "Фотография"
+
+#: .\templates\news\index.html:321
+msgid "Ommabop"
+msgstr "Популярные"
+
+#: .\templates\news\index.html:400
+msgid " Barcha kategoriyalar "
+msgstr "Все категории"
+
+#: .\templates\news\index.html:402
+msgid " Kategoriya tanlang "
+msgstr "Выберите категорию"

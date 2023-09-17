@@ -80,11 +80,12 @@
 {##}
 
 {% extends 'news/base.html' %}
+{% load i18n %}
 {% load static %}
 {% load hitcount_tags %}
 
 <title>
-{% block title %} Bosh Sahifa {% endblock title %}
+{% block title %} {% blocktrans %} Bosh Sahifa {% endblocktrans %} {% endblock title %}
 </title>
 {% block content %}
 
@@ -104,7 +105,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4">
         <div class="latest_post">
-          <h2><span>So'nggi yangiliklar</span></h2>
+          <h2><span>{% blocktrans %}So'nggi yangiliklar{% endblocktrans %}</span></h2>
           <div class="latest_post_container">
             <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
             <ul class="latest_postnav">
@@ -128,7 +129,7 @@
       <div class="col-lg-8 col-md-8 col-sm-8">
         <div class="left_content">
           <div class="single_post_content">
-            <h2><span>Mahalliy</span></h2>
+            <h2><span>{% blocktrans %}Mahalliy{% endblocktrans %}</span></h2>
             <div class="single_post_content_left">
               <ul class="business_catgnav  wow fadeInDown">
                   {% for mahalliy in mahalliy_xabarlar %}
@@ -177,7 +178,7 @@
           <div class="fashion_technology_area">
             <div class="fashion">
               <div class="single_post_content">
-                <h2><span>Xorij</span></h2>
+                <h2><span>{% blocktrans %}Xorij{% endblocktrans %}</span></h2>
                 <ul class="business_catgnav wow fadeInDown">
                   <li>
                       {% for xorij in xorij_xabarlar %}
@@ -222,7 +223,7 @@
             </div>
             <div class="technology">
               <div class="single_post_content">
-                <h2><span>Texnologiya</span></h2>
+                <h2><span>{% blocktrans %}Texnologiya{% endblocktrans %}</span></h2>
                 <ul class="business_catgnav">
                   <li>
                       {% for tex in texnologiya_xabarlar %}
@@ -267,7 +268,7 @@
             </div>
           </div>
           <div class="single_post_content">
-            <h2><span>Photography</span></h2>
+            <h2><span>{% blocktrans %}Rasmlar{% endblocktrans %}</span></h2>
             <ul class="photograph_nav  wow fadeInDown">
                 {% for foto in xorij_xabarlar %}
               <li>
@@ -317,7 +318,7 @@
       <div class="col-lg-4 col-md-4 col-sm-4">
         <aside class="right_content">
           <div class="single_sidebar">
-            <h2><span>Ommabop</span></h2>
+            <h2><span>{% blocktrans %}Ommabop{% endblocktrans %}</span></h2>
             <ul class="spost_nav">
               <li>
                 <div class="media wow fadeInDown"> <a href="../pages/single_page.html" class="media-left"> <img alt="" src="{% static 'images/post_img1.jpg' %}"> </a>
@@ -396,9 +397,9 @@
             <h2><span>Sponsor</span></h2>
             <a class="sideAdd" href="#"><img src="{% static 'images/add_img.jpg' %}" alt=""></a> </div>
           <div class="single_sidebar wow fadeInDown">
-            <h2><span>Barcha kategoriyalar</span></h2>
+            <h2><span> {% blocktrans %} Barcha kategoriyalar {% endblocktrans %} </span></h2>
             <select class="catgArchive">
-              <option>Kategoriya tanlang</option>
+              <option> {% blocktrans %} Kategoriya tanlang {% endblocktrans %} </option>
                 {% for kategory in categories %}
               <option>{{ kategory.name }}</option>
                 {% endfor %}

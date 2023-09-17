@@ -5,42 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ea803fb-353c-4c23-af13-644cf728f191" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news_project/custom_permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/profile_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/register_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crud/news_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crud/news_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crud/news_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/news/search_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pages/admin_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pages/user_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news_app/translation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectname/projectname/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectname/projectname/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/jquery.fancybox.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/jquery.fancybox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news/news_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/news_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news/single_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/single_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -160,7 +140,11 @@
       <workItem from="1694051693082" duration="34004000" />
       <workItem from="1694352275928" duration="14735000" />
       <workItem from="1694377961135" duration="3962000" />
-      <workItem from="1694409095000" duration="12348000" />
+      <workItem from="1694409095000" duration="12923000" />
+      <workItem from="1694689826525" duration="902000" />
+      <workItem from="1694691466894" duration="6642000" />
+      <workItem from="1694860538678" duration="3982000" />
+      <workItem from="1694972999800" duration="5971000" />
     </task>
     <servers />
   </component>
